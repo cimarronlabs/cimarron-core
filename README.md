@@ -30,14 +30,28 @@ Este laboratorio es la base sobre la cual se construyen las capacidades operativ
         - **playbooks/**        # Procedimientos operativos
         - **research/**         # Investigaciones profundas
     - **labs/**                 # Laboratorios reproducibles, entornos QEMU/KVM, proxmoxVE, contenedores y scripts
+        - **docker/**           # Contenedores
+        - **qemu_kvm/**         # Maquinas virtuales
+    - **PoC/**                  # Prueba de Conceptos
+        - **crypto_attacks/**
+        - **cve_reproductions/**
+        - **exploit_development/**
     - **research/**             # Proyectos de investigación activos
         - **automation/**       # DevSecOps, pipelines, políticas, frameworks, integraciones
         - **crypto/**           # Criptografía, entropía, TRNG
+            - **crypto_tests/**
         - **defensive/**        # Blue Teaming, detección, hardening, automatización defensiva
+            - **hardening/**
         - **offensive/**        # Red Teaming, explotación controlada, técnicas ofensivas, notes
         - **osint/**            # Metodologías, herramientas, procedimientos
-    - **tools/**                # Scripts, utilidades propias, automatizaciones
+            - recon
     - **roadmap/**              # Avance público de investigación y metas
+    - **templates/**            # Templates varios
+        - **architecture/**
+        - **reports/**
+        - **threat_models/**
+    - **tools/**                # Scripts, utilidades propias, automatizaciones
+
     - **README.md**             # Este archivo
 
 ## Fundamentos Operativos
