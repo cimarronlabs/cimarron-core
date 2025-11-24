@@ -24,18 +24,18 @@ Este laboratorio es la base sobre la cual se construyen las capacidades operativ
 
 - **cimarron-core/**
     - **docs/**                 # Documentación técnica central
-        - **methodology/**      # Metodología del laboratorio
-        - **playbooks/**        # Procedimientos operativos
         - **adversary/**        # Modelado de amenazas y TTPs
         - **architecture/**     # Diseño de infraestructura y blueprints
+        - **methodology/**      # Metodología del laboratorio
+        - **playbooks/**        # Procedimientos operativos
         - **research/**         # Investigaciones profundas
+    - **labs/**                 # Laboratorios reproducibles, entornos QEMU/KVM, proxmoxVE, contenedores y scripts
     - **research/**             # Proyectos de investigación activos
+        - **automation/**       # DevSecOps, pipelines, políticas, frameworks, integraciones
+        - **crypto/**           # Criptografía, entropía, TRNG
         - **defensive/**        # Blue Teaming, detección, hardening, automatización defensiva
         - **offensive/**        # Red Teaming, explotación controlada, técnicas ofensivas, notes
         - **osint/**            # Metodologías, herramientas, procedimientos
-        - **automation/**       # DevSecOps, pipelines, políticas, frameworks, integraciones
-        - **crypto/**           # Criptografía, entropía, TRNG
-    - **labs/**                 # Laboratorios reproducibles, entornos QEMU/KVM, ProxmoxVE, contenedores y scripts
     - **tools/**                # Scripts, utilidades propias, automatizaciones
     - **roadmap/**              # Avance público de investigación y metas
     - **README.md**             # Este archivo
