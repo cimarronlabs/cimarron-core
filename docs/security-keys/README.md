@@ -4,8 +4,6 @@ Este módulo forma parte del laboratorio central de **Cimarrón Labs**, enfocado
 
 Su objetivo es documentar de manera clara y profesional todo el proceso de adopción, configuración y análisis de seguridad relacionado con **FIDO2/WebAuthn**, incluyendo casos de uso para entornos DevSecOps, Red Team, Blue Team y AICO.
 
----
-
 ## Objetivos del Módulo
 
 - Implementar autenticación resistente al phishing en servicios críticos.
@@ -13,8 +11,6 @@ Su objetivo es documentar de manera clara y profesional todo el proceso de adopc
 - Evaluar amenazas y limitaciones en entornos reales.
 - Integrar claves físicas o biométricas en GitHub, Proton, Google y sistemas propios.
 - Desarrollar guías aplicables a organizaciones y proyectos.
-
----
 
 ## ¿Qué es FIDO2/WebAuthn?
 
@@ -25,8 +21,6 @@ FIDO2 es un estándar de autenticación moderna basado en criptografía de clave
 
 Esta combinación elimina contraseñas, reduce superficie de ataque y protege contra phishing, robo de credenciales, MITM y ataques de re‑utilización.
 
----
-
 ## Uso de un Smartphone como Clave FIDO2
 
 Los dispositivos Android modernos permiten actuar como llaves FIDO2 vía:
@@ -35,7 +29,7 @@ Los dispositivos Android modernos permiten actuar como llaves FIDO2 vía:
 - Secure Enclave / Trusted Execution Environment
 - USB, NFC o Bluetooth
 
-Esto permite comenzar sin hardware dedicado.
+Esto permite comenzar sin hardware dedicado. (Más económico)
 
 El procedimiento general consiste en:
 
@@ -43,8 +37,6 @@ El procedimiento general consiste en:
 2. Elegir “Clave de Seguridad”.
 3. Seleccionar “Dispositivo Android”.
 4. Confirmar con biometría.
-
----
 
 ## Servicios Implementados
 
@@ -74,8 +66,6 @@ Este repositorio documenta la configuración real en servicios utilizados por Ci
 - Demostración de bypass imposibles sin comprometer el dispositivo físico.
 - Modelos de ataque alternativos.
 
----
-
 ## Estructura del Directorio
 
 ```
@@ -84,8 +74,6 @@ docs/security-keys/
     01-Que_es_FIDO2.md
     02-CATP2_y_WebAuthn.md
 ```
-
----
 
 ## Licencia
 

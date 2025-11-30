@@ -2,16 +2,12 @@
 
 Este documento forma parte del módulo **security-keys** dentro del laboratorio central de **Cimarrón Labs**. Su finalidad es establecer los conceptos fundamentales necesarios para comprender, implementar y evaluar tecnologías modernas de autenticación basadas en **FIDO2 (Fast IDentity Online 2)**.
 
----
-
 ## Propósito del Documento
 
 * Explicar de forma clara los conceptos esenciales de FIDO2.
 * Dar contexto técnico y estratégico para arquitecturas modernas de autenticación.
 * Establecer la base teórica que se expandirá en los siguientes capítulos.
 * Alinear estos conocimientos con el enfoque de Cimarrón Labs: seguridad aplicada, Zero Trust, AICO y automatización.
-
----
 
 ## ¿Qué es FIDO2 (Fast IDentity Online 2)?
 
@@ -25,7 +21,7 @@ Es la API que permite que los navegadores y los sitios web implementen autentica
 
 * Define cómo se crean y validan las credenciales.
 * Asocia las claves a dominios específicos.
-* Protege contra phishing y ataques de intermediario.
+* Protege contra phishing y ataques de intermediario (MITM - Man-In-The-Middle).
 
 ### **2. CTAP2 (Client To Authenticator Protocol 2)**
 
@@ -36,8 +32,6 @@ Es el protocolo que permite que un dispositivo externo como una YubiKey, SoloKey
 * Puede comunicarse por USB (Universal Serial Bus), NFC (Near Field Communication) o BLE (Bluetooth Low Energy).
 
 WebAuthn y CTAP2 trabajan juntos para formar el ecosistema FIDO2.
-
----
 
 ## Otros conceptos importantes
 
@@ -52,8 +46,6 @@ Son credenciales basadas en FIDO2 pero almacenadas y sincronizadas en la nube po
 ### **TEE (Trusted Execution Environment)**
 
 Entorno seguro dentro del hardware donde se guardan claves privadas en dispositivos móviles.
-
----
 
 ## ¿Por qué FIDO2 es importante para la seguridad moderna?
 
@@ -72,10 +64,6 @@ En Cimarrón Labs, este estándar es pilar central para:
 * Diseñar sistemas defensivos.
 * Evaluar sistemas vulnerables como parte del Red Team.
 
----
-
 ## Conclusión
 
 FIDO2 representa el camino moderno hacia autenticación segura y resistente al phishing. Entender estos conceptos es fundamental para el desarrollo de arquitecturas avanzadas, operaciones AICO, DevSecOps, Red Team y Blue Team.
-
-
