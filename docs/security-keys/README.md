@@ -82,7 +82,7 @@ Este repositorio documenta la configuración real en servicios utilizados por Ci
 docs/security-keys/
     00-Introduccion_a_FIDO2.md
     01-Que_es_FIDO2.md
-    
+    02-CATP2_y_WebAuthn.md
 ```
 
 ---
