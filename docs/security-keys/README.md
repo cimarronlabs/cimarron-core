@@ -73,6 +73,7 @@ docs/security-keys/
     00-Introduccion_a_FIDO2.md
     01-Que_es_FIDO2.md
     02-CATP2_y_WebAuthn.md
+    03-Diferencias_entre_FIDO2_U2F_y_WebAuthn.md
 ```
 
 ## Licencia
