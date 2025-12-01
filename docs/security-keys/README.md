@@ -74,6 +74,8 @@ docs/security-keys/
     01-Que_es_FIDO2.md
     02-CATP2_y_WebAuthn.md
     03-Diferencias_entre_FIDO2_U2F_y_WebAuthn.md
+    04-Por_que_FIDO2_es_resistente_al_phishing_y_ataques_modernos.md
+    README.md
 ```
 
 ## Licencia
